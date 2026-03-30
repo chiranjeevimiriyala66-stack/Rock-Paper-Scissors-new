@@ -1,0 +1,165 @@
+*{
+    margin:0px;
+    padding:0px;
+   
+    
+}
+#footer{
+   
+   background-color: rgb(21, 35, 57);
+   color:white;
+   position:fixed;
+   height: 7rem;
+   width:100%;
+   bottom: 0rem;
+
+}
+/* h1{
+   background-color: aliceblue;
+   width:2rem;
+   height:5rem;
+   color:black;
+
+} */
+#lists{
+   display:flex;
+   flex-direction: column;
+   gap:2rem;
+}
+#dropdown{
+   display:flex;
+   flex-direction: column;
+   /* justify-content: center; */
+   border: 2px solid black;
+   position:absolute;
+   left:1vmin;
+   top:4rem;
+   background-color: aliceblue;
+   padding:1rem;
+   /* height:200%; */
+   border-radius: 2rem;
+   transition:transform 0.3s ease;
+  
+
+}
+
+#dropdown:hover{
+   
+   transform: scale(1.1);
+}
+/* body{
+   transition:transition 0.3s ease;
+}
+body:hover{
+   background-color: aqua;
+   transform:scale(0.6);
+} */
+button{
+    width: 5rem;
+    background-color: lightblue;
+     border-radius: 5rem; 
+}
+.msg{
+    border: 2px solid rgb(241, 237, 237);
+    width: 9rem;
+    margin-left: 45%;
+    background-color: #03045e;
+    color:aliceblue;
+    /* line-height: 3rem; */
+    position: fixed;
+    top:20rem;
+    
+
+    
+   
+    
+}
+body{
+    background-color: #4a4e69;
+     text-align: center;
+}
+#heading{
+   position: fixed;
+    height:5rem;
+    width: 100%;
+    text-align: center;
+    background-color: #001d3d;
+    color:aliceblue;
+    line-height: 3rem; 
+    top:0;
+   
+
+}
+#menu{
+   position:fixed;
+   top:10px;
+   left:10px;
+   width:3rem;
+   background-color: aliceblue;
+   border-color: rgb(17, 16, 16);
+   line-height: 2REM;
+   cursor: pointer;
+
+}
+.score{
+   position: fixed;
+   top:25rem;
+   left:43rem;
+    font-size: 30px;
+}
+/* h1{
+    margin-top: 20px;
+} */
+ .choices{
+    display:flex;
+    justify-content: center;
+    margin-top: 9rem;
+
+ }
+ .choice{
+    height:5rem;
+    width:10rem;
+    gap:3rem;
+    transition: transform 0.3s ease;
+ }
+ .choice:hover {
+    transform: scale(1.2); /* 20% bigger */
+}
+ #rocimg{
+    height: 8rem;
+    border-radius: 6rem;
+     border: 2px solid white;
+     
+ }
+ #paperimg{
+    height:8rem;
+    border-radius: 6rem;
+    border: 2px solid white;
+ }
+ #scissorsimg{
+    height:8rem;
+    border-radius: 6rem;
+     border: 2px solid white;
+ }
+ #boxs{
+    position: absolute;
+    width: 100%;
+    top:3rem;
+    left:0rem;
+    /* border:2px solid white; */
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    
+ } 
+ button:hover{
+   transform: scale(1.2);
+   transition: transform 0.3s ease;
+   background-color: rgba(223, 217, 220, 0.263);
+ }
+ .hidden{
+    display:none;
+ }
+ #menu img{
+   pointer-events:none !important;
+}
